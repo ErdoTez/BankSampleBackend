@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CUSTOM.CommonHelpers\CUSTOM.CommonHelpers.csproj" />
+    <ProjectReference Include="..\CUSTOM.SharedDTOs\CUSTOM.SharedDTOs.csproj" />
+  </ItemGroup>
+
+</Project>

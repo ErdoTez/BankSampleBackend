@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DomainServices\CUSTOM.CommonHelpers\CUSTOM.CommonHelpers.csproj" />
+    <ProjectReference Include="..\..\DomainServices\CUSTOM.DbRepository\CUSTOM.DbRepository.csproj" />
+    <ProjectReference Include="..\..\DomainServices\CUSTOM.Models\CUSTOM.Models.csproj" />
+    <ProjectReference Include="..\..\DomainServices\CUSTOM.SharedDTOs\CUSTOM.SharedDTOs.csproj" />
+  </ItemGroup>
+
+</Project>

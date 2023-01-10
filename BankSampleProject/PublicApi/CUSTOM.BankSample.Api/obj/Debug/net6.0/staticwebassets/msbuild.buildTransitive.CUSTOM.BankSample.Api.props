@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CUSTOM.BankSample.Api.props" />
+</Project>

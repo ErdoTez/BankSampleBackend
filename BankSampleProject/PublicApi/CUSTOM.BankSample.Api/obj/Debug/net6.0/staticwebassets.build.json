@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CYpaGnFLRARsVutC08loYshiIsuh2vHfrFrwxcQFUiM=",
+  "Source": "CUSTOM.BankSample.Api",
+  "BasePath": "_content/CUSTOM.BankSample.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
